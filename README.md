@@ -1,32 +1,46 @@
-# 🧠 Product Data Cleaning Pipeline
+Product Data Cleaning Pipeline
+Overview
 
-## Overview
-This project demonstrates a complete **data cleaning workflow** using Python and Pandas.  
-It prepares raw retail product data for analysis by handling missing values, cleaning text fields, 
-and converting data types.
+This project demonstrates a real-world data cleaning process using Python and Pandas.
+The goal was to take messy product data — with missing prices, inconsistent formatting, and date issues — and turn it into a clean dataset ready for reporting or analysis.
 
----
+Steps I Took
 
-## Process
-1️⃣ Load raw product data (`raw_product_data.csv`)  
-2️⃣ Clean column names and text  
-3️⃣ Handle missing values and symbols (£, NaN)  
-4️⃣ Convert data types (Price, Date)  
-5️⃣ Export the cleaned dataset  
+Loaded raw product data from CSV
 
----
+Cleaned and normalised column names
 
-## Tools Used
-- Python 3  
-- Pandas  
-- Excel / CSV  
+Removed unwanted symbols (like £)
 
----
+Converted text and price fields to correct data types
 
-## Output
-- `Cleaned_Product_Data.xlsx` – cleaned version ready for analysis  
+Fixed missing values using mean or default values
 
----
+Formatted dates consistently (YYYY-MM-DD)
 
-## Skills Demonstrated
-Data Cleaning • Regex • Type Conversion • Missing Data Handling • Report Export
+Exported a clean Excel file ready for use
+
+Tools Used
+
+Python
+
+Pandas
+
+Excel / CSV
+
+Output
+
+Cleaned_Product_Data.xlsx — cleaned version of the dataset
+
+What This Shows
+
+Data cleaning and transformation with Pandas
+
+Handling missing or invalid values
+
+Preparing real-world data for business reporting
+
+Extra Notes
+
+This project is part of a personal portfolio focused on data engineering and ETL practice.
+The main focus was to simulate what a junior data engineer would do on the job when dealing with raw datasets.
