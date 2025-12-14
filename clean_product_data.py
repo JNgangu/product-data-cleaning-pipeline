@@ -1,5 +1,5 @@
 """
-📊 Project: Product Data Cleaning Pipeline
+Project: Product Data Cleaning Pipeline
 Author: Joe Ngangu
 Description:
 Cleans and prepares messy product data for analysis and reporting.
