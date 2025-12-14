@@ -35,4 +35,4 @@ df['release_date'] = df['release_date'].dt.strftime('%Y-%m-%d')
 # Export cleaned dataset
 df.to_excel('Cleaned_Product_Data.xlsx', index=False)
 
-print("✅ Product data cleaned successfully – file saved as 'Cleaned_Product_Data.xlsx'")
+print("Product data cleaned successfully – file saved as 'Cleaned_Product_Data.xlsx'")
